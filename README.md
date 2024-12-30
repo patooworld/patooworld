@@ -7,7 +7,7 @@
 - 🌱 I’m currently learning Full Stack Development
 - 👯 I’m looking to collaborate on exciting open-source projects
 - 💬 Ask me about JavaScript, Python, and Web Development
-- 📫 How to reach me: [patooworld@patooworld.com](mailto:patooworld@patooworld.com)
+- 📫 How to reach me: [samuel@patooworld.com](mailto:samuel@patooworld.com)
 - 😄 Pronouns: They/Them
 - ⚡ Fun fact: I love exploring new technologies and developing software solutions!
 
