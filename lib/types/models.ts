@@ -7,42 +7,6 @@ export interface Model {
 
 export const models: Model[] = [
   {
-    id: 'claude-3-5-sonnet-latest',
-    name: 'Claude 3.5 Sonnet',
-    provider: 'Anthropic',
-    providerId: 'anthropic'
-  },
-  {
-    id: 'claude-3-5-haiku-20241022',
-    name: 'Claude 3.5 Haiku',
-    provider: 'Anthropic',
-    providerId: 'anthropic'
-  },
-  {
-    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'undefined',
-    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'Undefined',
-    provider: 'Azure',
-    providerId: 'azure'
-  },
-  {
-    id: 'accounts/fireworks/models/deepseek-r1',
-    name: 'DeepSeek R1',
-    provider: 'Fireworks',
-    providerId: 'fireworks'
-  },
-  {
-    id: 'deepseek-reasoner',
-    name: 'DeepSeek R1',
-    provider: 'DeepSeek',
-    providerId: 'deepseek'
-  },
-  {
-    id: 'deepseek-chat',
-    name: 'DeepSeek V3',
-    provider: 'DeepSeek',
-    providerId: 'deepseek'
-  },
-  {
     id: 'gemini-2.0-pro-exp-02-05',
     name: 'Gemini 2.0 Pro (Exp)',
     provider: 'Google Generative AI',
