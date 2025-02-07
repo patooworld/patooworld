@@ -25,18 +25,6 @@ export const models: Model[] = [
     providerId: 'google'
   },
   {
-    id: 'deepseek-r1-distill-llama-70b',
-    name: 'DeepSeek R1 Distill Llama 70B',
-    provider: 'Groq',
-    providerId: 'groq'
-  },
-  {
-    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'deepseek-r1',
-    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'DeepSeek R1',
-    provider: 'Ollama',
-    providerId: 'ollama'
-  },
-  {
     id: 'o3-mini',
     name: 'o3-mini',
     provider: 'OpenAI',
@@ -55,9 +43,57 @@ export const models: Model[] = [
     providerId: 'openai'
   },
   {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'undefined',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'Undefined',
-    provider: 'OpenAI Compatible',
-    providerId: 'openai-compatible'
+    id: 'deepseek-r1-distill-llama-70b',
+    name: 'DeepSeek R1 Distill Llama 70B',
+    provider: 'Groq',
+    providerId: 'groq'
+  },
+ {
+    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'patooworld.com',
+    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'Horizon Copilot',
+    provider: 'Azure',
+    providerId: 'azure'
+  },
+  {
+    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'deepseek-r1',
+    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'DeepSeek R1',
+    provider: 'Ollama',
+    providerId: 'ollama'
+  },
+  {
+    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'patooworld-genai',
+    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'PW AI',
+    provider: 'Patooworld GenAI',
+    providerId: 'patooworld'
+  },
+  {
+    id: 'claude-3-5-sonnet-latest',
+    name: 'Claude 3.5 Sonnet',
+    provider: 'Anthropic',
+    providerId: 'anthropic'
+  },
+  {
+    id: 'claude-3-5-haiku-20241022',
+    name: 'Claude 3.5 Haiku',
+    provider: 'Anthropic',
+    providerId: 'anthropic'
+  },
+  {
+    id: 'accounts/fireworks/models/deepseek-r1',
+    name: 'DeepSeek R1',
+    provider: 'Fireworks',
+    providerId: 'fireworks'
+  },
+  {
+    id: 'deepseek-reasoner',
+    name: 'DeepSeek R1',
+    provider: 'DeepSeek',
+    providerId: 'deepseek'
+  },
+  {
+    id: 'deepseek-chat',
+    name: 'DeepSeek V3',
+    provider: 'DeepSeek',
+    providerId: 'deepseek'
   }
 ]
