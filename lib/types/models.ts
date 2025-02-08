@@ -44,7 +44,7 @@ export const models: Model[] = [
   },
   {
     id: 'deepseek-r1-distill-llama-70b',
-    name: 'DeepSeek R1 Distill Llama 70B',
+    name: '99PACE',
     provider: 'Groq',
     providerId: 'groq'
   },
@@ -55,16 +55,16 @@ export const models: Model[] = [
     providerId: 'azure'
   },
   {
-    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99PACE',
-    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99PACE',
+    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'Elevationpace',
+    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'Elevationpace',
     provider: 'Ollama',
     providerId: 'ollama'
   },
   {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'elite-flow-386908',
+    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'www.patooworld.com',
     name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ELITE',
     provider: 'PATOOWORLD',
-    providerId: 'patooworld.com'
+    providerId: 'patooworld'
   },
   {
     id: 'claude-3-5-sonnet-latest',
