@@ -62,9 +62,9 @@ export const models: Model[] = [
   },
   {
     id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'elite-flow-386908',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'Elite Flow',
+    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ATG',
     provider: 'PATOOWORLD',
-    providerId: 'google'
+    providerId: 'patooworld.com'
   },
   {
     id: 'claude-3-5-sonnet-latest',
