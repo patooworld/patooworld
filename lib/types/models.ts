@@ -49,22 +49,22 @@ export const models: Model[] = [
     providerId: 'groq'
   },
  {
-    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'patooworld.com',
+    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'atolog',
     name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'Horizon Copilot',
     provider: 'Azure',
     providerId: 'azure'
   },
   {
-    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'deepseek-r1',
-    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'DeepSeek R1',
+    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99pace',
+    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'G 99PACE',
     provider: 'Ollama',
     providerId: 'ollama'
   },
   {
     id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'patooworld-genai',
     name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'PW AI',
-    provider: 'Patooworld GenAI',
-    providerId: 'patooworld'
+    provider: 'GenAI',
+    providerId: 'google'
   },
   {
     id: 'claude-3-5-sonnet-latest',
