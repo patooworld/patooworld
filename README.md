@@ -1,6 +1,6 @@
-# Morphic
+# PATOOWORLD
 
-An AI-powered search engine with a generative UI.
+Your AI-powered search engine with speed of light.
 
 ![capture](/public/screenshot-2025-01-31.png)
 
@@ -20,7 +20,7 @@ An AI-powered search engine with a generative UI.
 
 ### Core Features
 
-- AI-powered search with GenerativeUI
+- AI-powered search with Speed of Light
 - Natural language question understanding
 - Multiple search providers support (Tavily, SearXNG, Exa)
 - Model selection from UI (switch between available AI models)
@@ -95,13 +95,13 @@ An AI-powered search engine with a generative UI.
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```bash
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/morphic.git
+git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/patooworld.git
 ```
 
 ### 2. Install dependencies
 
 ```bash
-cd morphic
+cd patooworld
 bun install
 ```
 
@@ -139,7 +139,7 @@ Visit http://localhost:3000 in your browser.
 
 ## 🌐 Deploy
 
-Host your own live version of Morphic with Vercel or Cloudflare Pages.
+Host your own live version of Patooworld with Vercel or Cloudflare Pages.
 
 ### Vercel
 
@@ -149,16 +149,16 @@ Host your own live version of Morphic with Vercel or Cloudflare Pages.
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use Morphic as a search engine in your browser, follow these steps:
+If you want to use Patooworld as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
 3. Select "Manage search engines and site search".
 4. Under "Site search", click on "Add".
 5. Fill in the fields as follows:
-   - **Search engine**: Morphic
-   - **Shortcut**: morphic
-   - **URL with %s in place of query**: `https://morphic.sh/search?q=%s`
+   - **Search engine**: Patooworld
+   - **Shortcut**: patooworld
+   - **URL with %s in place of query**: `https://www.patooworld.com/search?`
 6. Click "Add" to save the new search engine.
 7. Find "Morphic" in the list of site search, click on the three dots next to it, and select "Make default".
 
@@ -166,18 +166,19 @@ This will allow you to use Morphic as your default search engine in the browser.
 
 ## ✅ Verified models
 
-### List of models applicable to all
-
 - OpenAI
   - o3-mini
   - gpt-4o
   - gpt-4o-mini
   - gpt-4-turbo
   - gpt-3.5-turbo
-- Google
+    
+- Google Generative AI
+  
   - Gemini 2.0 Pro (Experimental)
   - Gemini 2.0 Flash Thinking (Experimental)
   - Gemini 2.0 Flash
+    
 - Anthropic
   - Claude 3.5 Sonnet
   - Claude 3.5 Hike
@@ -193,32 +194,3 @@ This will allow you to use Morphic as your default search engine in the browser.
 ## ⚡ AI SDK Implementation
 
 ### Current Version: AI SDK UI
-
-This version of Morphic uses the AI SDK UI implementation, which is recommended for production use. It provides better streaming performance and more reliable client-side UI updates.
-
-### Previous Version: AI SDK RSC (v0.2.34 and earlier)
-
-The React Server Components (RSC) implementation of AI SDK was used in versions up to [v0.2.34](https://github.com/miurla/morphic/releases/tag/v0.2.34) but is now considered experimental and not recommended for production. If you need to reference the RSC implementation, please check the v0.2.34 release tag.
-
-> Note: v0.2.34 was the final version using RSC implementation before migrating to AI SDK UI.
-
-For more information about choosing between AI SDK UI and RSC, see the [official documentation](https://sdk.vercel.ai/docs/getting-started/navigating-the-library#when-to-use-ai-sdk-rsc).
-
-## 📦 Open Source vs Cloud Offering
-
-Morphic is open source software available under the Apache-2.0 license.
-
-To maintain sustainable development and provide cloud-ready features, we offer a hosted version of Morphic alongside our open-source offering. The cloud solution makes Morphic accessible to non-technical users and provides additional features while keeping the core functionality open and available for developers.
-
-For our cloud service, visit [morphic.sh](https://morphic.sh).
-
-## 👥 Contributing
-
-We welcome contributions to Morphic! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
-
-Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
-
-- How to submit issues
-- How to submit pull requests
-- Commit message conventions
-- Development setup
