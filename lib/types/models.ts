@@ -20,7 +20,8 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash',
-    name: 'Gemini 2.0 Flash',
+    name: 'PATOOWORLD
+    "Gemini 2.0 Flash',
     provider: 'Google Generative AI',
     providerId: 'google'
   },
@@ -61,10 +62,10 @@ export const models: Model[] = [
     providerId: 'ollama'
   },
   {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'www.patooworld.com',
+    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'GenAI',
     name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ELITE',
     provider: 'PATOOWORLD',
-    providerId: 'patooworld'
+    providerId: 'google'
   },
   {
     id: 'claude-3-5-sonnet-latest',
