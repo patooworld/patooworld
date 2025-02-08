@@ -48,21 +48,21 @@ export const models: Model[] = [
     provider: 'Groq',
     providerId: 'groq'
   },
- {
+  {
     id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'atolog',
-    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'Horizon Copilot',
+    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'ATOLOG',
     provider: 'Azure',
     providerId: 'azure'
   },
   {
-    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99pace',
-    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'G 99PACE',
+    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99PACE',
+    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || '99PACE',
     provider: 'Ollama',
     providerId: 'ollama'
   },
   {
     id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'elite-flow-386908',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ATG',
+    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ELITE',
     provider: 'PATOOWORLD',
     providerId: 'patooworld.com'
   },
