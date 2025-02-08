@@ -8,92 +8,38 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-pro-exp-02-05',
-    name: 'Gemini 2.0 Pro (Exp)',
-    provider: 'Google Generative AI',
+    name: 'PW AI (2.0 Pro (Exp)',
+    provider: '',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'Gemini 2.0 Flash Thinking (Exp)',
-    provider: 'Google Generative AI',
+    name: 'PW AI (2.0 Flash Thinking (Exp)',
+    provider: '',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash',
-    name: 'Gemini 2.0 flash',
-    provider: 'Google Generative AI',
+    name: 'PW AI (2.0-flash)',
+    provider: '',
     providerId: 'google'
   },
   {
-    id: 'o3-mini',
-    name: 'o3-mini',
-    provider: 'OpenAI',
-    providerId: 'openai'
+    id: 'gemini-1.5-pro-002',
+    name: 'PW ELITE (1.5 pro)',
+    provider: 'Google Gemini family of models',
+    providerId: 'google'
   },
   {
-    id: 'gpt-4o',
-    name: 'GPT-4o',
-    provider: 'OpenAI',
-    providerId: 'openai'
-  },
-  {
-    id: 'gpt-4o-mini',
-    name: 'GPT-4o mini',
-    provider: 'OpenAI',
-    providerId: 'openai'
-  },
-  {
-    id: 'deepseek-r1-distill-llama-70b',
-    name: '99PACE',
+    id: 'llama3-groq-8b-8192-tool-use-preview',
+    name: 'Groq 99PACE',
     provider: 'Groq',
     providerId: 'groq'
   },
   {
-    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'atolog',
-    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'ATOLOG',
-    provider: 'Azure',
-    providerId: 'azure'
-  },
-  {
-    id: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'Elevationpace',
-    name: process.env.NEXT_PUBLIC_OLLAMA_MODEL || 'Elevationpace',
-    provider: 'Ollama',
-    providerId: 'ollama'
-  },
-  {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'gemini-2.0-flash-exp',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'ELITE FLOW',
-    provider: 'PATOOWORLD',
-    providerId: 'google'
-  },
-  {
-    id: 'claude-3-5-sonnet-latest',
-    name: 'Claude 3.5 Sonnet',
-    provider: 'Anthropic',
-    providerId: 'anthropic'
-  },
-  {
-    id: 'claude-3-5-haiku-20241022',
-    name: 'Claude 3.5 Haiku',
-    provider: 'Anthropic',
-    providerId: 'anthropic'
-  },
-  {
-    id: 'accounts/fireworks/models/deepseek-r1',
-    name: 'DeepSeek R1',
-    provider: 'Fireworks',
-    providerId: 'fireworks'
-  },
-  {
-    id: 'deepseek-reasoner',
-    name: 'DeepSeek R1',
-    provider: 'DeepSeek',
-    providerId: 'deepseek'
-  },
-  {
-    id: 'deepseek-chat',
-    name: 'DeepSeek V3',
-    provider: 'DeepSeek',
-    providerId: 'deepseek'
+    id: 'deepseek-r1-distill-llama-70b',
+    name: 'Elevationpace',
+    provider: 'Groq',
+    providerId: 'groq'
   }
 ]
