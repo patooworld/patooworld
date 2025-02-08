@@ -61,9 +61,9 @@ export const models: Model[] = [
     providerId: 'ollama'
   },
   {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'patooworld-genai',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'PW AI',
-    provider: 'GenAI',
+    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'elite-flow-386908',
+    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'Elite Flow',
+    provider: 'PATOOWORLD',
     providerId: 'google'
   },
   {
