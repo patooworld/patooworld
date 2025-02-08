@@ -20,8 +20,8 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD',
-    provider: '(Gemini 2.0 Flash)',
+    name: 'Gemini 2.0 flash',
+    provider: 'Google Generative AI',
     providerId: 'google'
   },
   {
