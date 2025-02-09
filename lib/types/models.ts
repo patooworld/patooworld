@@ -32,7 +32,7 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash-exp',
-    name: 'PATOOOWORLD',
+    name: 'PATOOWORLD',
     provider: 'Google Gemini API-powered (PW)',
     providerId: 'google'
   }
