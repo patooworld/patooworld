@@ -8,14 +8,14 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-pro-exp-02-05',
-    name: 'Cloudinpace 2.0 Pro (PW)',
-    provider: 'Google Gemini API-powered',
+    name: 'Cloudinpace 2.0 Pro (Exp)',
+    provider: 'Google Gemini API-powered (PW)',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'PatooPace 2.0 Flash Thinking (PW)',
-    provider: 'Google Gemini API-powered',
+    name: 'PatooPace 2.0 Flash Thinking (Exp)',
+    provider: 'Google Gemini API-powered (PW)',
     providerId: 'google'
   },
   {
@@ -32,7 +32,7 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash-exp',
-    name: '99PACE',
+    name: 'PATOOOWORLD',
     provider: 'Google Gemini API-powered (PW)',
     providerId: 'google'
   }
