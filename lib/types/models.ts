@@ -35,11 +35,5 @@ export const models: Model[] = [
     name: 'Gemini 2.0 pro',
     provider: 'Google Generative AI',
     providerId: 'google'
-  },
-  {
-    id: 'gemini-1.5-flash-8b',
-    name: 'GxP flash-8b (VA & PA)',
-    provider: 'Googl Generative AI',
-    providerId: 'google'
   }
 ]
