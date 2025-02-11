@@ -178,6 +178,7 @@ This will allow you to use Morphic as your default search engine in the browser.
   - Gemini 2.0 Pro (Experimental)
   - Gemini 2.0 Flash Thinking (Experimental)
   - Gemini 2.0 Flash
+  - Gemini 1.5 pro
     
 - Anthropic
   - Claude 3.5 Sonnet
