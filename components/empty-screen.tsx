@@ -3,16 +3,16 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'What is Gemini Family of Models?',
+    heading: 'Origin',
     message: 'What is Gemini Family of Models?'
   },
-  {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+   {
+    heading: 'AI-Powered Automation',
+    message: 'Automate Tasks and Warehous'
   },
   {
-    heading: 'AI-powered Automative',
-    message: 'Tesla Rivian Mercedes-Benz Electric cars'
+    heading: 'AI-Powered Personal Assistant',
+    message: 'Automates tasks, schedules appointments, and provides personalized recommendations'
   },
   {
     heading: 'Summary: https://arxiv.org/pdf/2501.05707',
