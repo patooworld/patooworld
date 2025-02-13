@@ -14,13 +14,13 @@ export const models: Model[] = [
   },
  {
     id: 'gemini-2.0-pro-exp-02-05',
-    name: 'PATOOWORLD CV pro',
+    name: 'PATOOWORLD Cyb',
     provider: 'Gemini 2.0 Pro (Exp)',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'PATOOWORLD C Vision',
+    name: 'PATOOWORLD Vision',
     provider: 'Gemini 2.0 Flash Thinking (Exp)',
     providerId: 'google'
   },
