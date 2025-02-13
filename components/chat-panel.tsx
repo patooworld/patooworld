@@ -78,11 +78,9 @@ export function ChatPanel({
           : 'fixed bottom-8 left-0 right-0 top-6 flex flex-col items-center justify-center'
       )}
     >
-      {messages.length === 0 && (
+     <div class="container">
       <div class="logo">
         <img src="https://avatars.githubusercontent.com/u/114192133?v=4" alt="Patooworld">
-        </div>
-      )}
       <form
         onSubmit={handleSubmit}
         className={cn(
