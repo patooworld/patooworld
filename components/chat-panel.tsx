@@ -81,6 +81,7 @@ export function ChatPanel({
      <div class="container">
       <div class="logo">
         <img src="https://avatars.githubusercontent.com/u/114192133?v=4" alt="Patooworld">
+      </div>
       <form
         onSubmit={handleSubmit}
         className={cn(
