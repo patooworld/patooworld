@@ -79,8 +79,8 @@ export function ChatPanel({
       )}
     >
       {messages.length === 0 && (
-        <div className="mb-8">
-          <IconLogo className="size-12 text-muted-foreground" />
+      <div class="logo">
+        <img src="https://avatars.githubusercontent.com/u/114192133?v=4" alt="Patooworld">
         </div>
       )}
       <form
@@ -99,7 +99,7 @@ export function ChatPanel({
             tabIndex={0}
             onCompositionStart={handleCompositionStart}
             onCompositionEnd={handleCompositionEnd}
-            placeholder="ASK a question..."
+            placeholder="Your Choice, We Adore..."
             spellCheck={false}
             value={input}
             className="resize-none w-full min-h-12 bg-transparent border-0 px-4 py-3 text-sm placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
