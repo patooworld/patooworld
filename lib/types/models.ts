@@ -19,12 +19,6 @@ export const models: Model[] = [
     providerId: 'google'
   },
   {
-    id: 'gemini-2.0-pro-exp-01-21',
-    name: 'Elite Cyb',
-    provider: 'Gemini 2.0 Pro (Exp)',
-    providerId: 'google'
-  },
-  {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
     name: 'PATOOWORLD C Vision',
     provider: 'Gemini 2.0 Flash Thinking (Exp)',
