@@ -2,7 +2,8 @@
 
 Your AI-powered search engine with speed of light.
 
-![capture](/public/screenshot-2025-01-31.png)
+![image](https://github.com/user-attachments/assets/aa47b42a-48f0-41e8-bb96-b24670bccb5c)
+
 
 ## 🗂️ Overview
 
