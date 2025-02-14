@@ -20,7 +20,7 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'PATOOWORLD Vision',
+    name: 'PATOOWORLD CVision',
     provider: 'Gemini 2.0 Flash Thinking (Exp)',
     providerId: 'google'
   },
