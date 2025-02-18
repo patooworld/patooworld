@@ -78,10 +78,11 @@ export function ChatPanel({
           : 'fixed bottom-8 left-0 right-0 top-6 flex flex-col items-center justify-center'
       )}
     >
-       {messages.length === 0 && (
-       <div className="mb-8">
-          <IconLogo className="size-12 text-muted-foreground" />
-        </div>
+      {messages.length === 0 && (
+        
+        <img src="https://avatars.githubusercontent.com/u/114192133?v=4"> 
+        </img>
+
       )}
       <form
         onSubmit={handleSubmit}
