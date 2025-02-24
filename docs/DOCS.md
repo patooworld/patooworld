@@ -6,7 +6,7 @@
 
 ## 🔮 Overview: Crafting Conversations with Code
 
-At its core, "The Conversational Alchemist" is a modern web application that conjures seamless and engaging conversations.  It's more than just a chat app; it's a digital sage that responds, interacts, and adapts. Built with the latest web development alchemy, it empowers users to dive into dynamic dialogues and experience the future of interactive communication.
+At its core, "The Conversational PATOOWORLD Al" is a modern web application that conjures seamless and engaging conversations.  It's more than just a chat app; it's a digital sage that responds, interacts, and adapts. Built with the latest web development alchemy, it empowers users to dive into dynamic dialogues and experience the future of interactive communication.
 
 **Here's the gist:**
 
