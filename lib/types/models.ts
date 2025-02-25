@@ -8,8 +8,8 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD PA',
-    provider: 'PATOOWORLD',
+    name: 'PATOOWORLD',
+    provider: 'PATOOWORLD AI (TaskMaster Assistant)',
     providerId: 'google'
   },
 ]
