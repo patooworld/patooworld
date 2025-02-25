@@ -80,7 +80,7 @@ export function ChatPanel({
     >
       {messages.length === 0 && (
         
-        <img src="https://avatars.githubusercontent.com/u/114192133?v=4"> 
+        <img src="https://avatars.githubusercontent.com/u/106743064?s=400&u=9f651004ba5682fab63d1514cacbf7688ad86559&v=4"> 
         </img>
 
       )}
