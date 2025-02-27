@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@miiura'
+    creator: '@patooworld'
   }
 }
 
@@ -44,7 +44,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const enableSaveChatHistory =
+  const enableSaveChatHistory ='true'
     process.env.NEXT_PUBLIC_ENABLE_SAVE_CHAT_HISTORY === 'true'
   return (
     <html lang="en" suppressHydrationWarning>
@@ -56,8 +56,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
+          <meta name="google-adsense-account" content="ca-pub-7241395218029967" />
           {children}
-          {enableSaveChatHistory && <Sidebar />}
+          { enableSaveChatHistory && <Sidebar /> }
           <Footer />
           <Toaster />
         </ThemeProvider>
