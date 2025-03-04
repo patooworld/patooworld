@@ -7,15 +7,15 @@ export interface Model {
 
 export const models: Model[] = [
   {
-    id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD CA',
-    provider: 'Conversational AI (Speed and Efficiency)',
+    id: 'gemini-1.5-pro-002',
+    name: 'PATOOWORLD 001',
+    provider: 'Deep Learning (Based on Choice)',
     providerId: 'google'
   },
   {
-    id: 'gemini-1.5-pro-002',
-    name: 'PATOOWORLD DL',
-    provider: 'Deep Learning (PW AI based on Choice)',
+    id: 'gemini-2.0-flash',
+    name: 'PATOOWORLD 002',
+    provider: 'Conversational AI (Speed and Efficiency)',
     providerId: 'google'
   },
   {
