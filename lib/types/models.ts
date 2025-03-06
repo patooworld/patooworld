@@ -9,7 +9,7 @@ export const models: Model[] = [
   {
     id: 'gemini-2.0-flash',
     name: 'PATOOWORLD UBA',
-    provider: 'Unified Business AI (Speed and Efficiency)',
+    provider: 'Unified Business Chatbot (Speed and Efficiency)',
     providerId: 'google'
   },
   {
