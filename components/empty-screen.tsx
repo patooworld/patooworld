@@ -15,7 +15,7 @@ const exampleMessages = [
     message: 'Automates tasks, schedules appointments, and provides personalized recommendations'
   },
   {
-    heading: 'Summary: https://arxiv.org/pdf/2501.05707',
+    heading: 'Summary',
     message: 'Summary: https://arxiv.org/pdf/2501.05707'
   }
 ]
