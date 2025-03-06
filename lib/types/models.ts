@@ -9,7 +9,7 @@ export const models: Model[] = [
   {
     id: 'gemini-1.5-pro-002',
     name: 'UNIFIED AI',
-    provider: 'PATOOWORLD',
+    provider: 'PATOOWORLD (Choice)',
     providerId: 'google'
   },
 ]
