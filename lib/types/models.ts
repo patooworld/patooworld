@@ -8,13 +8,13 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-1.5-pro-002',
-    name: 'ATOLOG AG',
+    name: 'ATOLOG-PA',
     provider: 'PATOOWORLD AI',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash',
-    name: 'ATOLOG PA',
+    name: 'ATOLOG-AG',
     provider: 'PATOOWORLD AI',
     providerId: 'google'
   },
