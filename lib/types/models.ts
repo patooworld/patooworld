@@ -14,7 +14,7 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD AIs',
+    name: 'PATOOWORLD AI2',
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1622166260.
     provider: 'Deep Learning (Speed and Efficiency in generating text, images, audio, and video)',
     providerId: 'google'
