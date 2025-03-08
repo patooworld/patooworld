@@ -9,7 +9,7 @@ export const models: Model[] = [
   {
   id: 'deepseek-r1-distill-llama-70b',
   name: '99PACE',
-  provider: 'Conversational Chatbot ( Social, Sales Marketing Chatbot Assistant with Speed of Light.)',
+  provider: 'Conversational AI ( Social , Sales Marketing Chatbot Assistant, Content and Text Generating. image Refining and Generating with Speed of Light.)',
   providerId: 'groq'
   },
   {
