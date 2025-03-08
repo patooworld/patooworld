@@ -9,7 +9,7 @@ export const models: Model[] = [
   {
     id: 'gemini-2.0-flash',
     name: 'PATOOWORLD ',
-    provider: 'Deep Learning (Data analysis, pattern recognition Speed and Efficiency)',
+    provider: 'Deep Learning (Data analysis, Marketing Vision, pattern recognition Speed and Efficiency)',
     providerId: 'google'
   },
   {
@@ -20,13 +20,13 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-pro-exp-02-05',
-    name: 'PATOOWORLD IV',
-    provider: 'Deep Dive (Research and provide Detailed analysis from market research to a historical event.(Exp)',
+    name: 'PATOOWORLD RS',
+    provider: 'Deep Dive (Research, and Code Investigator with Detailed analysis in Application development, Cloud base historical events.etc(Exp)',
     providerId: 'google'
   },
   {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'PATOOWORLD Cv',
+    name: 'PATOOWORLD CV',
     provider: 'Deep Learning (Algorithmic trained on large datasets for critical thinking in Computer Vision(Exp)',
     providerId: 'google'
   },
