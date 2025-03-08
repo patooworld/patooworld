@@ -8,7 +8,7 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD ',
+    name: 'PATOOWORLD Bot',
     provider: 'Deep Learning (Data analysis, Marketing Vision, pattern recognition Speed and Efficiency)',
     providerId: 'google'
   },
