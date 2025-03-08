@@ -7,15 +7,22 @@ export interface Model {
 
 export const models: Model[] = [
   {
+  id: 'deepseek-r1-distill-llama-70b',
+  name: '99PACE',
+  provider: 'Conversational Chatbot ( Social, Sales Marketing Chatbot Assistant with Speed of Light.)',
+  providerId: 'groq'
+  },
+  {
     id: 'gemini-2.0-flash',
-    name: 'PATOOWORLD Bot',
-    provider: 'Deep Learning (Data analysis, Marketing Vision, pattern recognition Speed and Efficiency)',
+    name: 'PATOOWORLD AIs',
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1622166260.
+    provider: 'Deep Learning (Speed and Efficiency in generating text, images, audio, and video)',
     providerId: 'google'
   },
   {
     id: 'gemini-1.5-pro-002',
     name: 'PATOOWORLD SR',
-    provider: 'Deep Dive (Study and Research In-depth understanding of any subject based on Choice)',
+    provider: 'Deep Dive AI-driven Tools(Search, poems, code, scripts, musical pieces, email, Study and Research In-depth understanding of any subject based on Choice etc.)',
     providerId: 'google'
   },
   {
