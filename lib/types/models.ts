@@ -15,7 +15,7 @@ export const models: Model[] = [
    {
     id: 'deepseek-r1-distill-llama-70b',
     name: 'ELEVATION',
-    provider: 'PATOOWORLD AI {Study and Refine any Video, Audio and Image Content In-depth understanding of any subject}',
+    provider: 'PATOOWORLD AI {Study Audience Network. Refine any Video, Audio and Image Content In-depth understanding of any subject}',
     providerId: 'groq'
    },
    {
