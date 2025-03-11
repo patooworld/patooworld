@@ -16,7 +16,7 @@ export const models: Model[] = [
     id: 'qwen2.5',
     name: 'ELEVATION',
     provider: 'PATOOWORLD AI {Study Audience Network. Refine any Video, Audio and Image Content In-depth understanding of any subject}',
-    providerId: 'groq'
+    providerId: 'ollama'
    },
    {
     id: 'gemini-2.0-flash',
