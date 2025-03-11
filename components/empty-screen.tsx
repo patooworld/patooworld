@@ -3,12 +3,12 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Origin',
-    message: 'What is Gemini Family of Models?'
+    heading: 'How to use',
+    message: 'How does PATOOWORLD AI assist users?'
   },
    {
     heading: 'AI-Powered Automation',
-    message: 'Automate Tasks and Warehous'
+    message: 'Automate Tasks and Warehous Management System'
   },
   {
     heading: 'AI-Powered Personal Assistant',
