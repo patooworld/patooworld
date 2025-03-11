@@ -9,7 +9,7 @@ export const models: Model[] = [
     {
     id: 'gemini-1.5-pro-002',
     name: 'PATOOWORLD',
-    provider: 'PATOOWORLD AI {Unified developers tool. Search, Research and write code like a pro based on choice}',
+    provider: 'PATOOWORLD AI {Deep Learning Unified developers tool. Search, Research and write code like a pro based on choice}',
     providerId: 'google'
    },
    {
