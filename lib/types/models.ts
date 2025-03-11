@@ -8,14 +8,14 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-flash',
-    name: '99PACE',
-    provider: 'Deep Learning (Data analysis, Sales Chatbot, Marketing Vision, pattern recognition Speed and Efficiency)',
+    name: 'PATOOWORLD', 
+    provider: 'PATOOWORLD AI2 {Data analysis, Sales Chatbot, Marketing Vision, pattern recognition Speed and Efficiency}',
     providerId: 'google'
   },
   {
-    id: 'gemini-1.5-pro-002',
-    name: 'PATOOWORLD',
-    provider: 'Deep Learning (Study and Research In-depth understanding of any subject based on Choice)',
-    providerId: 'google'
+    id: 'deepseek-r1-distill-llama-70b',
+    name: '99PACE',
+    provider: 'PATOOWORLD ELVATION {Study and Refine any Content In-depth understanding of any subject}',
+    providerId: 'groq'
   },
 ]
