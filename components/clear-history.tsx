@@ -28,7 +28,7 @@ export function ClearHistory({ empty }: ClearHistoryProps) {
     <AlertDialog open={open} onOpenChange={setOpen}>
       <AlertDialogTrigger asChild>
           Clear History
-       {/* </Button> */}
+       </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
