@@ -7,9 +7,9 @@ export interface Model {
 
 export const models: Model[] = [
     {
-    id: 'gemini-1.5-pro-002',
+    id: 'gemini-2.0-flash-lite-002',
     name: 'PATOOWORLD',
-    provider: 'Deep Learning {Study Research and write code, poem and complete tasks like a pro based on choice}',
+    provider: 'Deep Learning {Study Research, Search and write code, poem and complete tasks like a pro based on choice}',
     providerId: 'google'
    },
    {
