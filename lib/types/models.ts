@@ -20,7 +20,7 @@ export const models: Model[] = [
    },
    {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: '99PACE', 
+    name: 'PATOOSPACE', 
     provider: 'DeepMind {Deep Dive In-depth understanding of any subject from Computer Vision to Cybersecurity etc..}',
     providerId: 'google'
    },
