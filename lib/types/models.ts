@@ -14,19 +14,19 @@ export const models: Model[] = [
    },
    {
     id: 'gemini-2.0-flash',
-    name: 'ELEVATION',
-    provider: 'Deep Learning {Generate, Reform and Transfrom any Video, Audio and Image with speed of Light}',
+    name: 'PATOOPACE',
+    provider: 'Deep Learning {Your Conversational Chatbot. Reform, Transfrom and Generate Image. choice for IoT }',
     providerId: 'google'
    },
     {
     id: 'gemini-2.0-flash-lite-002',
-    name: 'ELITE FLOW',
+    name: '99PACE',
     provider: 'Deep Learning {ELITE FLOW Stratagies is based on Choice. Best in findings, Refining, Redefining and Enhancing.}',
     providerId: 'google'
    },
    {
     id: 'gemini-2.0-flash-thinking-exp-01-21',
-    name: 'PATOOSPACE', 
+    name: 'CLOUDINPACE', 
     provider: 'DeepMind {Deep Dive In-depth understanding of any subject from Computer Vision to Cybersecurity etc..}',
     providerId: 'google'
    },
