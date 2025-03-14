@@ -7,7 +7,7 @@ export interface Model {
 
 export const models: Model[] = [
     {
-    id: 'gemini-2.0-flash-lite-002',
+    id: 'gemini-1.5-pro-002',
     name: 'PATOOWORLD',
     provider: 'Deep Learning {Study Research, Search and write code, poem and complete tasks like a pro based on choice}',
     providerId: 'google'
@@ -16,6 +16,12 @@ export const models: Model[] = [
     id: 'gemini-2.0-flash',
     name: 'ELEVATION',
     provider: 'Deep Learning {Generate, Reform and Transfrom any Video, Audio and Image with speed of Light}',
+    providerId: 'google'
+   },
+    {
+    id: 'gemini-2.0-flash-lite-002',
+    name: 'ELITE FLOW',
+    provider: 'Deep Learning {ELITE FLOW Stratagies is based on Choice. Best in findings, Refining, Redefining and Enhancing.}',
     providerId: 'google'
    },
    {
