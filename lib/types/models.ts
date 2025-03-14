@@ -21,7 +21,7 @@ export const models: Model[] = [
    {
     id: 'gemini-2.0-flash',
     name: 'PATOOPACE', 
-    provider: 'PATOOWORLD AI {Your Conversational Chatbot, Know-ALL}',
+    provider: 'PATOOWORLD AI {Your Conversational Chatbot, KnowALL}',
     providerId: 'google'
    },
   {
@@ -29,5 +29,5 @@ export const models: Model[] = [
     name: 'ELEVATOR', 
     provider: 'PATOOWORLD AI{Evolving All purpose GenAI..}',
     providerId: 'google'
-   },
+   }
 ]
