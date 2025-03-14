@@ -19,7 +19,7 @@ export const models: Model[] = [
     providerId: 'google'
    },
     {
-    id: 'gemini-2.0-flash-lite-002',
+    id: 'gemini-2.0-flash-lite-001',
     name: '99PACE',
     provider: 'Deep Learning {ELITE FLOW Stratagies is based on Choice. Best in findings, Refining, Redefining and Enhancing.}',
     providerId: 'google'
