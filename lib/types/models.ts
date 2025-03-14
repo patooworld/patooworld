@@ -13,7 +13,7 @@ export const models: Model[] = [
     providerId: 'google'
    },
    {
-    id: 'deepseek-r1-distill-llama-70b',
+    id: 'deepseek-r1',
     name: '99PACE',
     provider: 'PATOOWORLD AI {Students Elevator. Generate, Reform, and Transform any Video, Audio and Image Content In-depth understanding of any subject}',
     providerId: 'groq'
