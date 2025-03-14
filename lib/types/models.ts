@@ -13,7 +13,7 @@ export const models: Model[] = [
     providerId: 'google'
    },
    {
-    id: 'deepseek-r1-distill-llama-70b',
+    id: 'gemini-2.0-flash-lite-001',
     name: '99PACE',
     provider: 'PATOOWORLD AI {Students Elevator. Generate, Reform, and Transform any Video, Audio and Image Content In-depth understanding of any subject}',
     providerId: 'groq'
@@ -25,7 +25,7 @@ export const models: Model[] = [
     providerId: 'google'
    },
   {
-    id: 'gemini-2.0-flash-lite-001',
+    id: 'gemini-2.0-flash-002',
     name: 'ELEVATOR', 
     provider: 'PATOOWORLD AI{Evolving All purpose GenAI..}',
     providerId: 'google'
