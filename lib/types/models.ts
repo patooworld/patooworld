@@ -20,8 +20,8 @@ export const models: Model[] = [
    },
    {
     id: 'gemini-2.0-flash',
-    name: 'PatooAssist', 
-    provider: 'PATOOWORLD PAI {TaskMaster}',
+    name: 'PATOOPACE', 
+    provider: 'PATOOWORLD AI {Your Conversational Chatbot, Know-ALL}',
     providerId: 'google'
    },
   {
