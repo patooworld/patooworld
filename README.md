@@ -2,8 +2,7 @@
 
 Your AI-powered search engine with speed of light.
 
-![image](https://github.com/user-attachments/assets/aa47b42a-48f0-41e8-bb96-b24670bccb5c)
-
+![opengraph-image2 png](https://github.com/user-attachments/assets/9b9f4c33-8de7-448f-9a24-8c7eb3922798)
 
 ## 🗂️ Overview
 
