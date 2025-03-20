@@ -13,21 +13,15 @@ export const models: Model[] = [
     providerId: 'google'
    },
    {
-    id: 'gemini-2.0-flash-lite-001',
-    name: '99PACE',
-    provider: 'PATOOWORLD AI {Students Elevator. Generate, Reform, and Transform any Video, Audio and Image Content In-depth understanding of any subject}',
-    providerId: 'groq'
-   },
-   {
     id: 'gemini-2.0-flash',
     name: 'PATOOPACE', 
     provider: 'PATOOWORLD AI {Your Conversational Chatbot, KnowALL}',
     providerId: 'google'
    },
-  {
-    id: 'gemini-2.0-flash-002',
+   {
+    id: 'gemini-1.5-flash',
     name: 'ELEVATOR', 
-    provider: 'PATOOWORLD AI{Evolving All purpose GenAI..}',
+    provider: 'PATOOWORLD AI{Small but mighty MLCV GenAI Model..}',
     providerId: 'google'
-   }
+   },
 ]
