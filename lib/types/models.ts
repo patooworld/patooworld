@@ -12,4 +12,10 @@ export const models: Model[] = [
     provider: 'Deep Learning {Study, Search and Research In-depth understanding of any subject from Computer Vision to Cybersecurity etc..}',
     providerId: 'google'
    }, 
+   {
+    id: 'gemma-3-27b-it',
+    name: 'Gemma', 
+    provider: 'Deep Learning {Semantic Study, wiki Search }',
+    providerId: 'google'
+   }, 
 ]
